@@ -1,8 +1,15 @@
-# Mantine Next Template
+# Emotion + Frontegg styling issue
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-minimal-next-template/generate) and create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+This is a minimal reproduction of an issue with emotion and frontegg.
 
-## Minimal template
+## Steps to reproduce
 
-This template includes minimal setup for server side rendering with Next.js, you can find a [fully featured template here](https://github.com/mantinedev/mantine-next-template).
+1. Run `yarn`
+2. Run `yarn build`
+3. Run `yarn start`
+4. Open `http://localhost:3000` in your browser
+5. Reload the page and observed that the button changes color randomly
+
+## Expected behavior
+
+1. The button should always be red
